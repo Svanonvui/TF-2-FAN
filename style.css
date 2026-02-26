@@ -56,7 +56,7 @@ body {
 
 .left-menu {
     width: 190px;
-    height: 100vh;
+    height: 100%;
     background: #333333;
     border-right: 3px solid black;
     font-size: 7px;
@@ -80,12 +80,10 @@ body {
     text-transform: uppercase;
 }
 
-
 .categories {
     margin-top: 15px;
     font-size: 12px;
 }
-
 
 .line {
     height: 2px;
@@ -101,6 +99,13 @@ body {
 h1 {
     margin: 0 auto;
 }
+
+.text-menu2 {
+    padding-bottom: 100px;
+}
+
+
+
 
 
 
