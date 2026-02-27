@@ -112,7 +112,7 @@ main {
 .line-header1 {
     height: 1px;
     background: black;
-    margin-top: 21px; /* Мне 15px Маричке 23px */
+    margin-top: 31px; /* Мне 15px Маричке 23px */
     margin-right: 5px;
     margin-bottom: 0px;
 }
@@ -169,6 +169,7 @@ a:hover {
     display: flex;
     border: 1px solid black;
     padding: 1px;
+	margin-top: 10px;
     margin-right: 10px;
     margin-left: 10px;
     width: 290px;
@@ -179,6 +180,7 @@ a:hover {
 .box-name {
 
 }
+
 
 
 
