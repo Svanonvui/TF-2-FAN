@@ -81,7 +81,6 @@ main {
 .box-menu2 {
     width: 150px;
     margin: 0 20px 0px 15px;
-    padding-top: px;
     color: black;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -112,7 +111,7 @@ main {
 .line-header1 {
     height: 1px;
     background: black;
-    margin-top: 30px; /* Мне 15px Маричке 23px */
+    margin-top: 23px; /* Мне 15px Маричке 23px */
     margin-right: 5px;
     margin-bottom: 0px;
 }
@@ -131,7 +130,7 @@ p {
 }
 
 .text-menu2 {
-    padding-bottom: 80px;
+    padding-bottom: 1150px;
 }
 
 a {
@@ -169,21 +168,67 @@ a:hover {
     display: flex;
     border: 1px solid black;
     padding: 1px;
-	margin-top: 10px;
+    margin-top: 10px;
     margin-right: 10px;
     margin-left: 10px;
-    width: 290px;
-    height: 300px;
-    background: gray;
+    width: 292px;
+    height: 100%;
+    background: #FF6600;
 }
 
 .box-name {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #2A2A2A;
+    color: #FF6600;
+    font-family: 'Galindo', sans-serif;
+    font-size: 12px;
+    width: 289px;
+    border: 1px solid black;
 }
 
+.border {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
 
+.img {
+    width: 286px;
+    height: 375px;
+    border: 1px solid black;
+}
 
+.infobox-container {
+  width: 100%; 
+  padding: 7px;
+}
 
+.row {
+  display: flex;        
+  justify-content: flex-start; 
+  align-items: center;
+  margin-bottom: 14px;    
+  font-size: 14px;       
+}
+
+.label {
+  width: 110px;          
+  font-weight: bold;     
+  color: #FF6600;         
+  flex-shrink: 0;         
+}
+
+.value {
+  color: #FF6600;           
+}
+
+.li {
+    font-size: 10px;
+}
 
 
 
