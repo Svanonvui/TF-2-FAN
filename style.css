@@ -111,7 +111,7 @@ main {
 .line-header1 {
     height: 1px;
     background: black;
-    margin-top: 30px; /* Мне 15px Маричке 23px */
+    margin-top: 23px; /* Мне 23px Маричке 30px */
     margin-right: 5px;
     margin-bottom: 0px;
 }
@@ -204,7 +204,7 @@ a:hover {
 
 .infobox-container {
   width: 100%; 
-  padding: 7px;
+  padding: 4px;
 }
 
 .row {
@@ -230,8 +230,55 @@ a:hover {
     font-size: 10px;
 }
 
+.steam-tf {
+    display: flex;
+    flex-direction: row;
+    background: #FF6600;
+    font-size: 8px;
+    color: #2A2A2A;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 400px;
+}
 
+.details-btn {
+    align-self: flex-end;
+    background: #2A2A2A;
+    color: #FF6600;
+    font-size: 14px;
+    border-radius: 12px;
+    padding: 5px;
+}
 
+.img-steam {
+    width: 150px;
+}
 
+.gameplay-header {
+    font-size: 28px;
+}
 
+.gameplay-main {
+    display: flex;
+    justify-content: flex-start;
+}
 
+.gameplay {
+    width: 270px;
+    padding: 10px;
+    border: 2px solid black;
+    font-size: 11px;
+    max-height: 279px;
+}
+
+.gameplay-text {
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 10px; 
+}
+
+.gameplay-text1 {
+    margin-top: 10px;
+}
