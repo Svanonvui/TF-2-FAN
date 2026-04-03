@@ -38,13 +38,23 @@ a:hover {
   color: #FF6600;
 }
 
+.links-text:hover {
+	text-decoration-color: black;
+}
+
+.links-text-steamtf2 {
+	text-decoration: none;
+	color: #FF6600;
+}
+
+.links-text-steamtf2:hover {
+	text-decoration: inline;
+	color: #FF6600;
+}
+
 .links-text-table {
 	text-decoration: underline;
 	color: black;
-}
-
-.links-text:hover {
-	text-decoration-color: black;
 }
 
 .links-text-table:hover {
