@@ -561,6 +561,10 @@ details[open] .when-closed {
 	.main-header {
         padding-right: 15px; /* Добавляем отступ справа */
     }
+
+	.line-header {
+		height: 2px;
+	}
 	
 	.top {
         display: flex;
