@@ -590,7 +590,7 @@ details[open] .when-closed {
         text-align: left; /* Прижимает текст внутри своего блока влево */
         padding-left: 0;
         margin-right: 0; 
-        font-size: 22px;
+        font-size: 24px;
         justify-content: center;
         white-space: nowrap; /* Текст никогда не перенесется */
 
