@@ -541,9 +541,9 @@ details[open] .when-closed {
 }
 
 .burger-menu {
-    display: none; /* Прячем на ПК */
+    display: none; 
     flex-direction: row;
-    justify-content: spaсe-around;
+    justify-content: spae-around;
     width: 30px;
     height: 25px;
     cursor: pointer;
@@ -596,8 +596,6 @@ details[open] .when-closed {
     }
 	
 	.icon {
-        width: 50px;
-        height: 50px;
         display: none;
     }
 	
@@ -768,4 +766,79 @@ details[open] .when-closed {
 	.left-menu {
 		padding-left: 10px;
 	}
+}
+
+@media (max-width: 1350px) {
+
+    main {
+        flex-direction: column;
+        position: relative;
+        min-height: 100vh;
+    }
+
+    .top {
+        display: flex;
+        justify-content: space-between; 
+        box-sizing: border-box;
+        align-items: center;
+        padding: 0 20px;
+        width: 100%;
+    }
+
+    .shapka {
+       
+        padding-left: 30px;
+        margin-right: 0; 
+        font-size: 38px;
+        justify-content: center;
+        white-space: nowrap; 
+
+    }
+	
+	.icon {
+        width: 80px;
+        height: 80px;
+    }
+
+    .box-menu, .box-menu2 {
+        width: 90%;
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+
+	.menu-blocks { display: none; }
+	
+    .burger-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 50px;
+        height: 18px;
+        margin-left: 20px;
+    }
+
+    .left-menu {
+        position: absolute;
+        left: -100%; 
+        top: 0; 
+        padding-top: 10px;
+        width: 200px;
+        min-height: 100vh;
+        height: 100%;
+        background: #2A2A2A;
+        font-size: 8px;
+        transition: 0.4s ease;
+        z-index: 1000;
+        border-right: 3px solid #FF6600;
+		padding-left: 10px;
+    }
+	
+    #burger-check:checked ~ main .left-menu { left: 0; }
+
+    #burger-check:checked ~ header .burger-menu span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+
+    #burger-check:checked ~ header .burger-menu span:nth-child(2) { opacity: 0; transform: scale(0); }
+
+    #burger-check:checked ~ header .burger-menu span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+
 }
